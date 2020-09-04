@@ -41,7 +41,7 @@ $ npm start
 Access the client-side application by navigating to your server address in your preferred browser.
 
 ```sh
-localhost:8000
+localhost:8080
 ```
 
 Verify the server working by navigating to your server address in your browser.
