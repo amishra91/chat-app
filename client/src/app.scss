@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F7F8FD;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  height: 500px;
+  margin: 100px auto;
+  background-color: #FFF;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .container {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  }
+  .user-login-wrapper {
+    width: 90%;
+    max-width: 100%;
+  }
+  .app-header {
+    border-radius: 0;
+  }
+  .send-messages-wrapper {
+    .user-input {
+      max-width: 80%;
+      border-radius: 0;
+    }
+  }
+  .send-msg-btn {
+    width: 20%;
+    border-radius: 0;
+  }
+  .message-view {
+    height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    padding-bottom: 60px;
+  }
+  .message-box {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .message-view {
+    max-height: 380px;
+  }
+}

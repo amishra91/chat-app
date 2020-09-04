@@ -1,0 +1,28 @@
+.send-messages-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  .user-input {
+    width: 90%;
+    color: rgba(0,0,0,0.8);
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom-left-radius: 8px;
+    border-left: 0;
+  }
+}
+.send-msg-btn {
+  width: 10%;
+  background-color: #267aff;
+  padding: 12px;
+  color: #fff;
+  border: 1px solid #267aff;
+  cursor: pointer;
+  border-bottom-right-radius: 8px;
+  outline: none;
+}
+.messages-wrapper {
+  max-height: 380px;
+  position: relative;
+  overflow-y: auto;
+}

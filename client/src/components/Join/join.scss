@@ -1,0 +1,27 @@
+.user-login-wrapper {
+  max-width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.user-input {
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.1);
+  outline: none;
+}
+.user-login-btn {
+  width: 100%;
+  background-color: #267aff;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 4px 0 #267aff;
+  margin-top: 12px;
+}

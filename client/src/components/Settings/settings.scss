@@ -1,0 +1,55 @@
+.settings-modal-wrapper {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  z-index: 2;
+  top: 0;
+}
+.settings-modal {
+  position: absolute;
+  width: 300px;
+  padding: 18px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F7F8FD;
+}
+.close-settings {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+}
+.menu-label {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.settings-menus {
+  label {
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+}
+.restore-settings-btn {
+  background-color: #267aff;
+  border: 0;
+  color: #fff;
+  font-size: 10px;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+.settings-restores {
+  margin: 12px 0;
+  font-size: 12px;
+  color: green;
+}
