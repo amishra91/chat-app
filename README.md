@@ -6,7 +6,7 @@ Instant messaging application built using ReactJS and Socket.io
 - ###### Chat message box to list messages
     - User's messages are on right side and other user's messages on left side
     - Each message displays the time and sender's name
-    - One-on-one and group messaging.
+    - Group messaging.
     - Send images using URLs (copy and paste image URL and it will be rendered as an image)
 - ###### Settings Overlay
     - All the settings are consumed and saved on the LocalStorage.
